@@ -3,3 +3,40 @@
   margin: 0;
   padding: 0;
 }
+.clearfix::after {
+  content: "";
+ display: table;
+ clear: both;
+}
+
+header {
+  height: 100px;
+  background-color: yellow;
+}
+
+nav {
+  height: 50px;
+  background: green;
+}
+
+main {
+  background-color: gray;
+}
+main > section {
+  float: left;
+  height: 500px;
+  width: 40%;
+  background-color: blue;
+}
+main > aside {
+  float: left;
+  height: 250px;
+  width: 20%;
+  background-color: purple;
+  border: 1px solid black;
+}
+
+footer {
+  height: 100px;
+  background-color: orange;
+}
