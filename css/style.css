@@ -3,12 +3,17 @@
   margin: 0;
   padding: 0;
 }
-
+body {
+  width: 1000px;
+  margin: auto;
+  background-color: lightblue;
+}
 .clearfix::after {
   content: "";
  display: table;
  clear: both;
 }
+
 
 header {
   height: 100px;
@@ -25,26 +30,27 @@ main {
 }
 main > section {
   float: left;
-  height: 500px;
-  width: 40%;
+  width: 50%;
   background-color: blue;
-}
-.articles {
-  float: left;
-  width: 18%;
+  margin: 10px 0;
 }
 .left-section {
   float: left;
+  width: 23%;
+  margin: 10px 2% 0 0;
+}
+.articles {
+  float: left;
+  width: 23%;
+  margin-left: 2%;
 }
 aside {
-  height: 250px;
-  width: 18%;
   background-color: purple;
-  border: 1px solid black;
 }
 .right-section {
   display: inline-block;
   width: 100%;
+  margin: 10px 0;
 }
 
 
