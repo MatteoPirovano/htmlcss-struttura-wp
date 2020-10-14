@@ -3,9 +3,10 @@
   margin: 0;
   padding: 0;
 }
-body {
+.container {
   width: 1000px;
   margin: auto;
+  padding: 20px;
   background-color: lightblue;
 }
 .clearfix::after {
@@ -16,7 +17,8 @@ body {
 
 
 header {
-  height: 100px;
+  height: 300px;
+  border: 10px solid white;
   background-color: yellow;
 }
 
@@ -36,13 +38,13 @@ main > section {
 }
 .left-section {
   float: left;
-  width: 23%;
-  margin: 10px 2% 0 0;
+  width: 20%;
+  margin: 10px 5% 0 0;
 }
 .articles {
   float: left;
-  width: 23%;
-  margin-left: 2%;
+  width: 20%;
+  margin-left: 5%;
 }
 aside {
   background-color: purple;
